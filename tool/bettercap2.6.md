@@ -1,0 +1,1 @@
+# Bettercap 2.6
