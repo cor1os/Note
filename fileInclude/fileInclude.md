@@ -106,7 +106,7 @@ fuzz字典：
 /proc/version
 ```
 
-##漏洞分析
+## 漏洞分析
 
 读取到应用代码，对漏洞原因进行分析。
 
@@ -158,11 +158,11 @@ class models_index {
 
 detail 方法获取到了url参数之后直接file_get_contents输出。最典型的任意文件读取漏洞。
 
-##修复方案
+## 修复方案
 
 白名单用户的输入就可以了。
 
-##参考资料
+## 参考资料
 
 [http://zone.wooyun.org/content/27434](http://zone.wooyun.org/content/27434)
 
